@@ -1,2 +1,3 @@
 ---
-# handlers file for ansible-role-logstash-forwarder
+- name: Restart service
+  service: name=logstash-forwarder state=restarted

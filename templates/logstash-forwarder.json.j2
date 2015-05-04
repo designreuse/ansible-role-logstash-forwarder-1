@@ -1,0 +1,11 @@
+{
+  "network": {
+    "servers": ["{{ server }}"],
+    "ssl ca": "{{ directory }}/logstash.crt"
+  },
+  "files": [
+    {
+      "paths": ["{{ logfile }}"]
+    }
+  ]
+}
